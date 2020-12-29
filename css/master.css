@@ -1,0 +1,47 @@
+body {
+  background: black;
+  color: white;
+}
+
+header{
+  background-color: grey;
+  height: 50px;
+}
+
+.btn{
+background: black;
+width:100px;
+height: 100px;
+margin:50px;
+border-radius:20px;
+-webkit-box-shadow: 10px 10px 15px 0px #1A1A1A, -10px -10px 15px 0px #1E1D1D;
+box-shadow: 10px 10px 15px 0px #1A1A1A, -10px -10px 15px 0px #1E1D1D;
+} .btn:hover{
+  -webkit-box-shadow: 10px 10px 15px 0px #E9E9E9 inset, -10px -10px 15px 0px #F5F5F5 inset;
+  box-shadow: 10px 10px 15px 0px #E9E9E9 inset, -10px -10px 15px 0px #F5F5F5 inset;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
