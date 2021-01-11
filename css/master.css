@@ -3,22 +3,8 @@ body {
   color: white;
 }
 
-header{
-  background-color: grey;
-  height: 50px;
-}
-
-.btn{
-background: black;
-width:100px;
-height: 100px;
-margin:50px;
-border-radius:20px;
--webkit-box-shadow: 10px 10px 15px 0px #1A1A1A, -10px -10px 15px 0px #1E1D1D;
-box-shadow: 10px 10px 15px 0px #1A1A1A, -10px -10px 15px 0px #1E1D1D;
-} .btn:hover{
-  -webkit-box-shadow: 10px 10px 15px 0px #E9E9E9 inset, -10px -10px 15px 0px #F5F5F5 inset;
-  box-shadow: 10px 10px 15px 0px #E9E9E9 inset, -10px -10px 15px 0px #F5F5F5 inset;
+.Plorem{
+  columns: 4 20em;
 }
 
 /* Extra small devices (phones, 600px and down) */
