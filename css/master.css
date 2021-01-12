@@ -1,10 +1,24 @@
+:root{
+  --maincolor: #DD4521;
+}
+
+
+
 body {
   background: black;
   color: white;
 }
 
-.Plorem{
+h1{
+  color: var(--maincolor);
+}
+
+.Column{
   columns: 4 20em;
+}
+
+.ColumnBreak{
+  column-span: all;
 }
 
 /* Extra small devices (phones, 600px and down) */
