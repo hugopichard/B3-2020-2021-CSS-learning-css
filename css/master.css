@@ -5,3 +5,43 @@
 .footer{
   background: var(--code-background);
 }
+
+.paragraphcol{
+  -webkit-columns: 3 150px;
+  -moz-columns: 3 150px;
+  columns: 3 150px;
+  -webkit-column-gap: 2em;
+  -moz-column-gap: 2em;
+  column-gap: 2em;
+}
+
+header a{
+  margin: 30px;
+}
+
+.PersonalityCard{
+  background: var(--accent-color);
+}
+
+.PersonalityCard h4{
+  color: var(--text-color-richer);
+}
+
+.PersonalityCard:hover{
+  background: var(--accent-color-hover);
+}
+
+.navbar{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+.navbar a:hover{
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+}
