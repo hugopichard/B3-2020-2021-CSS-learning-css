@@ -41,7 +41,3 @@ header a{
 .navbar a{
   text-decoration: none;
 }
-.navbar a:hover{
-  text-decoration-line: line-through;
-  text-decoration-color: black;
-}
