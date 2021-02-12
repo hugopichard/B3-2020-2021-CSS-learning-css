@@ -1,11 +1,59 @@
+
+/* Header ----------------------------------------------------------------------*/
+
+.HeadTitle{
+  display: flex;
+  justify-content: center;
+}
+
 .header{
   background: var(--code-background);
+  padding: 20px;
+  margin-bottom: 50px;
 }
+
+header a{
+  margin: 30px;
+}
+
+.navbar{
+  justify-content: flex-start;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+/* Footer ----------------------------------------------------------------------*/
 
 .footer{
   background: var(--code-background);
   margin-top: 32px;
+  padding: 20px;
 }
+
+.copyright{
+  justify-content: center;
+  display: flex;
+}
+
+.copyright a{
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+/* Titres ----------------------------------------------------------------------*/
+
+.BigUnderline{
+   background: linear-gradient(0deg, rgba(240, 136, 41,0) 0%, rgba(240, 136, 41,0) 16%, rgba(240, 136, 41,1) 16%, rgba(240, 136, 41,1) 41%, rgba(240, 136, 41,0) 41%);
+   padding:10px;
+}
+
+
+/* Homepage --------------------------------------------------------------------*/
 
 .paragraphcol{
   -webkit-columns: 3 150px;
@@ -16,9 +64,7 @@
   column-gap: 2em;
 }
 
-header a{
-  margin: 30px;
-}
+/*Cartes Personalités ----------------------------------------------------------*/
 
 .PersonalityCard{
   background: var(--accent-color);
@@ -32,20 +78,11 @@ header a{
   background: var(--accent-color-hover);
 }
 
-.navbar{
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  grid-auto-flow: column;
-}
-
-.navbar a{
-  text-decoration: none;
-}
 
 .PersoContainer{
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .PersoImg img{
@@ -53,11 +90,15 @@ header a{
   height: 100%;
   float: left;
   object-fit: cover;
+  border: solid 5px;
+  border-color: var(--accent-color);
 }
 
 .PersoParagraph{
   width: 49vw;
 }
+
+/*Page Personalités ------------------------------------------------------------*/
 
 .social{
   font-size: 22px;
