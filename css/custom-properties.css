@@ -18,9 +18,9 @@ html {
 	--theme-hue: 0;					/* white */
 	--accent-hue:27;			/* orange */
 
-	--text-color-richer: hsl(var(--theme-hue), 0%, 100%);
-	--text-color-normal: hsl(var(--theme-hue), 0%, 90%);
-	--text-color-softer: hsl(var(--theme-hue), 0%, 55%);
+	--text-color-richer: hsl(var(--theme-hue), 0%, 10%);
+	--text-color-normal: hsl(var(--theme-hue), 0%, 20%);
+	--text-color-softer: hsl(var(--theme-hue), 0%, 35%);
 
   --accent-color: hsl(var(--accent-hue), 86%, 57%);
   --accent-color-hover: hsl(var(--accent-hue), 76%, 49%);

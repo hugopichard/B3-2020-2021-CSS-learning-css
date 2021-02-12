@@ -4,6 +4,7 @@
 
 .footer{
   background: var(--code-background);
+  margin-top: 32px;
 }
 
 .paragraphcol{
@@ -40,4 +41,25 @@ header a{
 
 .navbar a{
   text-decoration: none;
+}
+
+.PersoContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PersoImg img{
+  width: 49vw;
+  height: 100%;
+  float: left;
+  object-fit: cover;
+}
+
+.PersoParagraph{
+  width: 49vw;
+}
+
+.social{
+  font-size: 22px;
+  margin-right: 22px;
 }
