@@ -47,13 +47,17 @@ header a{
    padding:10px;
 }
 
+.Bigtitle {
+  margin-bottom: 6rem;
+}
+
 
 /* Homepage --------------------------------------------------------------------*/
 
 .paragraphcol{
-  -webkit-columns: 3 150px;
-  -moz-columns: 3 150px;
-  columns: 3 150px;
+  -webkit-columns: 2 150px;
+  -moz-columns: 2 150px;
+  columns: 2 150px;
   -webkit-column-gap: 2em;
   -moz-column-gap: 2em;
   column-gap: 2em;
@@ -98,4 +102,15 @@ header a{
 .social{
   font-size: 22px;
   margin-right: 22px;
+}
+
+/*Page propriétés ------------------------------------------------------------*/
+
+.btnshowmore{
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.blockproperty{
+  border-top: inset 10px black;
 }

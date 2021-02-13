@@ -32,7 +32,7 @@ html {
 	--background-color-softer: hsl(var(--theme-hue), 0%, 95%);
   --code-background: hsl(var(--theme-hue), 0%, 5%);
 
-	--button-primary-color: white;
+	--button-primary-color: black;
 
 
 	/* Note: Skeleton was based off a 10px font sizing for REM  */

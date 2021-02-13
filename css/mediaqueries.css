@@ -12,6 +12,12 @@ there.
 /* Extra small devices (phones, 700px and down) */
 @media only screen and (max-width: 700px) {
 
+  .paragraphcol{
+    -webkit-columns: 1 150px;
+    -moz-columns: 1 150px;
+    columns: 1 150px;;
+  }
+
   .PersoParagraph{
     width: 100vw;
   }
@@ -36,7 +42,6 @@ there.
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -51,5 +56,12 @@ there.
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  .paragraphcol{
+    -webkit-columns: 3 150px;
+    -moz-columns: 3 150px;
+    columns: 3 150px;
+
+  }
 
 }
