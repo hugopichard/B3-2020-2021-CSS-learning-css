@@ -4,6 +4,7 @@
 .HeadTitle{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .header{
@@ -14,12 +15,6 @@
 
 header a{
   margin: 30px;
-}
-
-.navbar{
-  justify-content: flex-start;
-  align-content: center;
-  grid-auto-flow: column;
 }
 
 .navbar a{
