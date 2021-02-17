@@ -20,7 +20,7 @@
 }
 
 /* grids to 3 columns above mobile sizes */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 	.grid-container {
 		grid-template-columns: repeat(3, 1fr);
 		padding: 10px 0;
