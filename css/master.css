@@ -23,10 +23,25 @@ header a{
 
 /* Footer ----------------------------------------------------------------------*/
 
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 .footer{
   background: var(--code-background);
-  margin-top: 32px;
+  margin-bottom: -5em;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .copyright{
@@ -71,10 +86,22 @@ header a{
 
 .PersonalityCard h4{
   color: var(--text-color-richer);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
 
 .PersonalityCard:hover{
   background: var(--accent-color-hover);
+}
+
+
+
+/*Page Personalités ------------------------------------------------------------*/
+
+.social{
+  font-size: 22px;
+  margin-right: 22px;
 }
 
 
@@ -86,7 +113,6 @@ header a{
 
 .PersoImg img{
   width: 49vw;
-  height: 100%;
   float: left;
   object-fit: cover;
   border: solid 5px;
@@ -95,13 +121,6 @@ header a{
 
 .PersoParagraph{
   width: 49vw;
-}
-
-/*Page Personalités ------------------------------------------------------------*/
-
-.social{
-  font-size: 22px;
-  margin-right: 22px;
 }
 
 /*Page propriétés --------------------------------------------------------------*/
