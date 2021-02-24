@@ -9,8 +9,8 @@ there.
 
 
 
-/* Extra small devices (phones, 700px and down) */
-@media only screen and (max-width: 700px) {
+/* Extra small devices (phones, 740px and down) */
+@media only screen and (max-width: 740px) {
 
   .paragraphcol{
     -webkit-columns: 1 150px;
@@ -35,6 +35,37 @@ there.
   .navbar a{
     display: flex;
     justify-content: center;
+  }
+
+  .BurgerMenu{
+      display: block;
+  }
+
+  .header{
+    background: var(--code-background);
+    padding: 20px;
+    margin-bottom: 50px;
+    display: none;
+  }
+
+  .menu-toggle{
+    opacity: 1;
+    background: black;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    color: var(--accent-color);
+  }
+
+
+  .menu-checkbox:checked ~ .header {
+      display: block;
+  }
+
+  .menu-checkbox:checked ~ .menu-toggle {
+      border-bottom: none;
   }
 
 
